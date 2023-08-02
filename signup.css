@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Write styles here */
+body {
+    font-family: "Inter", sans-serif;
+   
+  }
+
+.signuppage form{
+    display: flex;
+    flex-direction: column; 
+}
+
+.signuppage input{
+    padding:10px 5px;
+    margin: 10px 5px;
+
+}
+
+.spSignbtn {
+    width: 10%;
+    padding: 5px 5px;
+    margin: 10px 5px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+
+
+   
+  .myCart{
+    cursor: pointer;
+  }
+
+  .profile{
+    cursor: pointer;
+  }

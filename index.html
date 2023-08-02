@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>MeShop.</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="brand">
+      <a href="/">MeShop.</a>
+    </div>
+    <div class="nav-items">
+      <a href="/">Home</a>
+      <a href="/login.html">Login</a>
+      <a href="/signup.html">Signup</a>
+      <a  class="myCart" >My Cart</a>
+      <a class="profile">Profile</a>
+    </div>
+  </nav>
+  <div style="padding: 10px 30px;">
+    <h1 style="font-size: 50px; font-weight: 400;">MeShop.</h1>
+    <p>Your First Shop built on HTML,CSS and JavaScript</p>
+    <div class="buttonandimage">
+      <div class="firstPageButton">
+       
+          <button onclick="login()">Log in</button>
+       
+        <button onclick="signup()">Signup</button>
+      </div>
+
+      <div class="displayImage">
+        <img src="./Assets/undraw_web_shopping_re_owap 1.png" alt="No image">
+      </div>
+    </div>
+  </div>
+  <!-- <a href="./login.html"></a> -->
+  <script>
+    function login(){
+      window.location.href = "./login.html";
+    }
+    function signup(){
+      window.location.href = "./signup.html";
+    }
+    </script>
+  <script src="./script.js">
+
+  </script>
+</body>
+
+</html>

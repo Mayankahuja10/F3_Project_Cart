@@ -1,0 +1,65 @@
+/* Write your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* Write styles here */
+body {
+    font-family: "Inter", sans-serif;
+   
+  }
+
+.profile-1{
+    display: flex;
+    flex-direction: column; 
+}
+
+.profile-1 input{
+    padding:10px 5px;
+    margin: 10px 5px;
+
+}
+
+.profile-2 form{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.profile-2 input{
+    padding:10px 5px;
+    margin: 10px 5px;
+
+}
+.btn{
+    width: 150px;
+    color: white;
+    background-color: black;
+    margin: 4px 5px;
+    padding: 5px 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
